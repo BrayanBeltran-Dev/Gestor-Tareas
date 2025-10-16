@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="/LocalStorage/CSS/style.css">
+</head>
+<body>
+  <h2>Lista de tareas</h2>
+
+  <div class="agregar">
+    <input type="text" id="nuevaTarea" placeholder="Nueva tarea">
+    <button onclick="agregarTarea()">Agregar</button>
+  </div>
+
+  <div id="listaTareas"></div>
+
+  <button onclick="guardarTareas()">Guardar</button>
+  <p id="mensaje"></p>
+
+  <script src="/LocalStorage/JS/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.agregar {
+  margin-bottom: 20px;
+}
+
+.tarea {
+  margin: 10px 0;
+  padding: 10px;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.completada {
+  text-decoration: line-through;
+  background: #e0e0e0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+}
